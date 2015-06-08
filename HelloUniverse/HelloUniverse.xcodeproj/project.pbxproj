@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512EE5FD1B25A6F5007A12E0 /* Blue-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 512EE5FC1B25A6F5007A12E0 /* Blue-button.png */; };
 		51432F331B1FEAF900BD2063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51432F321B1FEAF900BD2063 /* Foundation.framework */; };
 		51432F351B1FEAF900BD2063 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51432F341B1FEAF900BD2063 /* CoreGraphics.framework */; };
 		51432F371B1FEAF900BD2063 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51432F361B1FEAF900BD2063 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		512EE5FC1B25A6F5007A12E0 /* Blue-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue-button.png"; sourceTree = "<group>"; };
 		51432F2F1B1FEAF900BD2063 /* HelloUniverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloUniverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51432F321B1FEAF900BD2063 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		51432F341B1FEAF900BD2063 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,6 +140,7 @@
 		51432F391B1FEAF900BD2063 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				512EE5FC1B25A6F5007A12E0 /* Blue-button.png */,
 				51432F671B1FF02B00BD2063 /* bkground.png */,
 				51432F3A1B1FEAF900BD2063 /* HelloUniverse-Info.plist */,
 				51432F3B1B1FEAF900BD2063 /* InfoPlist.strings */,
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512EE5FD1B25A6F5007A12E0 /* Blue-button.png in Resources */,
 				51432F4B1B1FEAF900BD2063 /* Images.xcassets in Resources */,
 				51432F3D1B1FEAF900BD2063 /* InfoPlist.strings in Resources */,
 				51432F461B1FEAF900BD2063 /* Main.storyboard in Resources */,
