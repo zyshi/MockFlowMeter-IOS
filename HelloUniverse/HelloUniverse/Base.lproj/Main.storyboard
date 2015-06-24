@@ -31,7 +31,7 @@
                                 <rect key="frame" x="75" y="163" width="170" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Pipe Settings" backgroundImage="Blue-button.png">
+                                <state key="normal" title="Pipe Settings" backgroundImage="white_button.png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -64,10 +64,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBn-j6-zwN">
-                                <rect key="frame" x="40" y="169" width="259" height="42"/>
+                                <rect key="frame" x="28" y="169" width="281" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Nomial Size" backgroundImage="Blue-button.png">
+                                <state key="normal" title="Nomial Size" backgroundImage="white_button.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -84,9 +84,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyy-RT-vNW">
-                                <rect key="frame" x="28" y="33" width="48" height="30"/>
+                                <rect key="frame" x="28" y="33" width="67" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Cancel">
+                                <state key="normal" title="Cancel" backgroundImage="white_button.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -95,9 +96,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPO-SG-Jgg">
-                                <rect key="frame" x="257" y="33" width="37" height="30"/>
+                                <rect key="frame" x="243" y="33" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Done">
+                                <state key="normal" title="Done" backgroundImage="white_button.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -138,7 +140,7 @@
                                 <rect key="frame" x="26" y="104" width="135" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" backgroundImage="Blue-button.png">
+                                <state key="normal" backgroundImage="white_button.png">
                                     <string key="title">2in(50mm)
 </string>
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -150,10 +152,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npj-gH-VMa">
-                                <rect key="frame" x="26" y="142" width="135" height="42"/>
+                                <rect key="frame" x="26" y="154" width="135" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" backgroundImage="Blue-button.png">
+                                <state key="normal" backgroundImage="white_button.png">
                                     <string key="title">3in(75mm)
 </string>
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -165,9 +167,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIW-2b-rSt">
-                                <rect key="frame" x="20" y="20" width="88" height="30"/>
+                                <rect key="frame" x="20" y="20" width="90" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pipe Spec">
+                                <state key="normal" title="Pipe Spec" backgroundImage="white_button.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -189,13 +192,16 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Blue-button.png" width="600" height="200"/>
-        <image name="Blue-button.png" width="600" height="200"/>
-        <image name="Blue-button.png" width="600" height="200"/>
-        <image name="Blue-button.png" width="600" height="200"/>
         <image name="bkground.png" width="744" height="1392"/>
         <image name="bkground.png" width="744" height="1392"/>
         <image name="bkground.png" width="744" height="1392"/>
+        <image name="white_button.png" width="429" height="153"/>
+        <image name="white_button.png" width="429" height="153"/>
+        <image name="white_button.png" width="429" height="153"/>
+        <image name="white_button.png" width="429" height="153"/>
+        <image name="white_button.png" width="429" height="153"/>
+        <image name="white_button.png" width="429" height="153"/>
+        <image name="white_button.png" width="429" height="153"/>
     </resources>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
