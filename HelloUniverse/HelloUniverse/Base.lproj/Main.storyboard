@@ -192,9 +192,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bkground.png" width="744" height="1392"/>
-        <image name="bkground.png" width="744" height="1392"/>
-        <image name="bkground.png" width="744" height="1392"/>
+        <image name="bkground.png" width="640" height="960"/>
+        <image name="bkground.png" width="640" height="960"/>
+        <image name="bkground.png" width="640" height="960"/>
         <image name="white_button.png" width="429" height="153"/>
         <image name="white_button.png" width="429" height="153"/>
         <image name="white_button.png" width="429" height="153"/>

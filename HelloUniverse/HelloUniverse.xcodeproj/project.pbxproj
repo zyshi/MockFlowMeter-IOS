@@ -23,7 +23,8 @@
 		51432F541B1FEAF900BD2063 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51432F361B1FEAF900BD2063 /* UIKit.framework */; };
 		51432F5C1B1FEAF900BD2063 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51432F5A1B1FEAF900BD2063 /* InfoPlist.strings */; };
 		51432F5E1B1FEAF900BD2063 /* HelloUniverseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51432F5D1B1FEAF900BD2063 /* HelloUniverseTests.m */; };
-		51432F681B1FF02B00BD2063 /* bkground.png in Resources */ = {isa = PBXBuildFile; fileRef = 51432F671B1FF02B00BD2063 /* bkground.png */; };
+		51432F681B1FF02B00BD2063 /* bkground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51432F671B1FF02B00BD2063 /* bkground2.png */; };
+		518FD4781B3BCAFC008B45E0 /* bkground.png in Resources */ = {isa = PBXBuildFile; fileRef = 518FD4771B3BCAFC008B45E0 /* bkground.png */; };
 		51C24A141B1FF4A500B0E62E /* MockPipeSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C24A131B1FF4A500B0E62E /* MockPipeSettingView.m */; };
 		51C24A171B1FFF8C00B0E62E /* MockNomialSizeSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C24A161B1FFF8C00B0E62E /* MockNomialSizeSelection.m */; };
 /* End PBXBuildFile section */
@@ -60,7 +61,8 @@
 		51432F591B1FEAF900BD2063 /* HelloUniverseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloUniverseTests-Info.plist"; sourceTree = "<group>"; };
 		51432F5B1B1FEAF900BD2063 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51432F5D1B1FEAF900BD2063 /* HelloUniverseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloUniverseTests.m; sourceTree = "<group>"; };
-		51432F671B1FF02B00BD2063 /* bkground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkground.png; sourceTree = "<group>"; };
+		51432F671B1FF02B00BD2063 /* bkground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkground2.png; sourceTree = "<group>"; };
+		518FD4771B3BCAFC008B45E0 /* bkground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkground.png; sourceTree = "<group>"; };
 		51C24A121B1FF4A500B0E62E /* MockPipeSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MockPipeSettingView.h; path = ../MockPipeSettingView.h; sourceTree = "<group>"; };
 		51C24A131B1FF4A500B0E62E /* MockPipeSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MockPipeSettingView.m; path = ../MockPipeSettingView.m; sourceTree = "<group>"; };
 		51C24A151B1FFF8C00B0E62E /* MockNomialSizeSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MockNomialSizeSelection.h; path = ../MockNomialSizeSelection.h; sourceTree = "<group>"; };
@@ -142,9 +144,10 @@
 		51432F391B1FEAF900BD2063 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				518FD4771B3BCAFC008B45E0 /* bkground.png */,
 				512EE5FC1B25A6F5007A12E0 /* Blue-button.png */,
 				510DF5371B32A5490075E4BE /* white_button.png */,
-				51432F671B1FF02B00BD2063 /* bkground.png */,
+				51432F671B1FF02B00BD2063 /* bkground2.png */,
 				51432F3A1B1FEAF900BD2063 /* HelloUniverse-Info.plist */,
 				51432F3B1B1FEAF900BD2063 /* InfoPlist.strings */,
 				51432F3E1B1FEAF900BD2063 /* main.m */,
@@ -248,12 +251,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				518FD4781B3BCAFC008B45E0 /* bkground.png in Resources */,
 				512EE5FD1B25A6F5007A12E0 /* Blue-button.png in Resources */,
 				51432F4B1B1FEAF900BD2063 /* Images.xcassets in Resources */,
 				51432F3D1B1FEAF900BD2063 /* InfoPlist.strings in Resources */,
 				510DF5381B32A5490075E4BE /* white_button.png in Resources */,
 				51432F461B1FEAF900BD2063 /* Main.storyboard in Resources */,
-				51432F681B1FF02B00BD2063 /* bkground.png in Resources */,
+				51432F681B1FF02B00BD2063 /* bkground2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
